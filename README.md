@@ -1,5 +1,7 @@
 # icon-picker
 
+[![NPM version](https://img.shields.io/npm/v/@opengis/icon-picker?style=plain)](https://www.npmjs.com/package/@opengis/icon-picker)
+
 Component for icon selection
 
 Includes a versatile collection of pre-styled Tailwind CSS icons.
