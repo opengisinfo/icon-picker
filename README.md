@@ -14,25 +14,48 @@ Complete documentation and examples available at [https://icon-picker.opengis.in
 
 ## Changelog
 
-Full change log available at [https://icon-picker.opengis.info](https://icon-picker.opengis.info)
-
-- [Changelog](https://icon-picker.opengis.info/changelog/)
+Full change log available at [https://icon-picker.opengis.info/changelog/](https://icon-picker.opengis.info/changelog/)
 
 
-## Get started
+## Install & Usage
 
-
-Install:
-
+### 1. Install the package
 ```bash
 npm i @opengis/icon-picker
 ```
+### 2. Register the component
+```typescript
+// main.ts or main.js
+import { createApp } from 'vue'
+import App from './App.vue'
+import IconPicker from '@opengis/icon-picker'
 
-Import:
+createApp(App).component('IconPicker', IconPicker).mount('#app')
 
-```vue
-import { IconList } from '@opengis/icon-picker/dist/icon-picker.es.js'
 ```
+### 3. Use it in your template
+```vue
+<template>
+  <IconPicker
+    v-model="selectedIcon"
+    :icons-list="myIcons"
+    width="500"
+  />
+</template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const selectedIcon = ref('')
+const myIcons = ['home', 'user', 'settings', 'arrow-left', 'check'] // your SVG names
+</script>
+```
+
+---
+
+## Contributions
+We welcome contributions!
+Feel free to open issues, suggest features, or submit pull requests.
 
 ## Licence
 
