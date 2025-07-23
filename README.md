@@ -12,6 +12,13 @@ Complete documentation and examples available at [https://icon-picker.opengis.in
 
 - [Component documentation](https://icon-picker.opengis.info/guide/)
 
+## Changelog
+
+Full change log available at [https://icon-picker.opengis.info](https://icon-picker.opengis.info)
+
+- [Changelog](https://icon-picker.opengis.info/changelog/)
+
+
 ## Get started
 
 
